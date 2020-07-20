@@ -1,0 +1,60 @@
+// Body
+$body-b:#f9f9f9;
+
+// Typography
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$primary:#1D2228;
+$danger:#ED4E53;
+.cart, .lr{
+    min-height:55.5vh;
+}
+
+a.nav-link {
+    color:#ED4E53!important;
+}
+
+a.nav-link:hover {
+    color:#ffff !important;
+}
+.masthead {
+    height: 70vh;
+    background-image: url('https://piljara.rs/images/92231.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .fa-stack[data-count]:after{
+    position:absolute;
+    right:0%;
+    top:0%;
+    content: attr(data-count);
+    font-size:40%;
+    padding:.6em;
+    border-radius:999px;
+    line-height:.75em;
+    color: white;
+    color:$danger;
+    text-align:center;
+    font-weight:bold;
+    background: white;
+    border-style:solid;
+  }
+  .fa-circle {
+    color:#DF0000;
+  }
